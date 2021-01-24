@@ -2,4 +2,4 @@
 
 ## Built with HTML, CSS, VanillaJS
 
-![screenshot](.images/screenshot)
+![screenshot](.images/screenshot.png)
