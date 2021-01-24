@@ -2,4 +2,5 @@
 
 ## Built with HTML, CSS, VanillaJS
 
-![screenshot](https://github.com/brian7989/Snowflake/blob/master/images/screenshot.png){: width="400" height="300"}
+<img src="https://github.com/brian7989/Snowflake/blob/master/images/screenshot.png" width="400">
+
