@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&family=Raleway:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&family=Raleway:wght@300;500;700&display=swap"
+        rel="stylesheet">
+
+    <script defer src="src/index.js"></script>
+    <script defer src="src/greeting.js"></script>
+    <script defer src="src/weather.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="src/ball.js"></script>
+    <script defer src="src/todo.js"></script>
+    <script defer src="src/bg.js"></script>
+    <script defer src="src/quotes.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="time">
+            <!-- <h3 class="date"></h3> -->
+            <h3 class="clock"></h3>
+        </div>
+        <div class="center">
+            <div class="center__wrapper">
+                <h1>HELLO THERE</h1>
+                <div class="greeting">
+                    <form class="js-form form" action="">
+                        <input type="text" placeholder="What is your name?">
+                    </form>
+                </div>
+                <img class="separator"
+                    src="https://uploads-ssl.webflow.com/5b96e0f027055f6a3a770402/5b96e0f027055f8ae1770428_Sep%20White.svg"
+                    alt="separator">
+                <div class="todos_wrapper">
+                    <form class="js-toDoForm" onsubmit="todoSubmitHandler(event)">
+                        <input id="td1" class="todoinput" type="text" placeholder="Todo 1">
+                        <input id="td2" class="todoinput" type="text" placeholder="Todo 2">
+                        <input id="td3" class="todoinput" type="text" placeholder="Todo 3">
+                    </form>
+                </div>
+                <div class="quotes">
+                    <p></p>
+                    <h3></h3>
+                </div>
+
+                <div class="sites">
+                    <ul class="icon_wrapper">
+                        <a target="_blank" href="https://www.gmail.com"> <i class="fas fa-at"></i></a>
+                        <a target="_blank" href="https://www.google.com"><i class="fab fa-google"></i></a>
+                        <a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <aside>
+            <div class="weather">
+                <h3 class="weather-text"></h3>
+            </div>
+        </aside>
+    </div>
+</body>
+
+</html>
